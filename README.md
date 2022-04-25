@@ -17,14 +17,14 @@ Il consiste à mettre en place un lecteur de flux RSS.
 * Délai : 2 jours
 
 ## Les téchnologies utilisées
-### Backend
-Pour le backend, j'ai utilisé le framewprk Laravel
+### Backend (Laravel 9)
+Pour le backend, j'ai utilisé le framewprk *Laravel 9
 
-### Frontend
+### Frontend (Angular 13.3)
 Pour le frontend, c'est le framework Angular qui a été exigé
 
 ## Les processus de lancement de l'application
-### backend
+### backend (Laravel 9)
 * Télécharger le code au format ZIP
 * Décomprésser le fichier ZIP
 * Ouvrir le cmd et se positionner sur le chemin du projet
@@ -34,3 +34,11 @@ Pour le frontend, c'est le framework Angular qui a été exigé
 * Ensuite taper "cp .env.example env" et saisisser le nom votre Base de données devant "DB_DATABASE=..."
 * Ensuite taper "php artisan migrate"
 * Enfin taper "php artisan serve" pour demarrer le serveur
+
+### frontend (Angular 13.3)
+* Télécharger le code au format ZIP
+* Décomprésser le fichier ZIP
+* Ouvrir le cmd et se positionner sur le chemin du projet
+* Taper "npm install"
+* Ensuite taper "ng serve"
+
